@@ -8,7 +8,11 @@
 <li><a style="text-decoration:none" target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Suporte_TI/blob/main/Files/Linux/Linux_sys_info.sh'><code>Linux_sys_info.sh</code></a></li>
 </p>
 
+
+
 </br>
+
+
 
 ## 1.1 Linux System Information
 ```
@@ -19,7 +23,11 @@ python3 -c "$(curl -fsSL https://raw.githubusercontent.com/luizleal1974/Suporte_
 </p>
 <p align="center">Figura 1. App.</p>
 
+
+
 </br>
+
+
 
 
 ## 1.2 Shell script
@@ -29,4 +37,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/luizleal1974/Suporte_TI/ma
 ```
 
 </br>
+
 
