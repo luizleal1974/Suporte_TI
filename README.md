@@ -16,6 +16,7 @@ python3 -c "$(curl -fsSL https://raw.githubusercontent.com/luizleal1974/Suporte_
 ```
 <p align="center">
 <img src="/Files/Linux/Linux_sys_info.gif" alt="Drawing"/>
+
 Figura 1. App.
 </p>
 
