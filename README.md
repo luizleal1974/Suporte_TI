@@ -1,4 +1,22 @@
-# 1. Linux
+## 1.1 Linux System Information
+
+<p align="center">
+<img src="/Files/Ubuntu_Zorin_OS.png"/>
+</p>
+
+```
+python3 -c "$(curl -fsSL https://raw.githubusercontent.com/luizleal1974/Suporte_TI/main/Files/Linux/Linux_sys_info.py)"
+```
+<p align="center">
+<img src="/Files/Linux/Linux_sys_info.gif" alt="Drawing"/>
+</p>
+<p align="center">Figura 1. App.</p>
+
+
+
+
+
+
 
 <p align="justify">Lista de arquivos contidos neste repositório.</p>
 
@@ -14,14 +32,6 @@
 
 
 
-## 1.1 Linux System Information
-```
-python3 -c "$(curl -fsSL https://raw.githubusercontent.com/luizleal1974/Suporte_TI/main/Files/Linux/Linux_sys_info.py)"
-```
-<p align="center">
-<img src="/Files/Linux/Linux_sys_info.gif" alt="Drawing"/>
-</p>
-<p align="center">Figura 1. App.</p>
 
 
 
