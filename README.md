@@ -1,5 +1,12 @@
 # Linux
 
+<p align="justify">
+<li><a style="text-decoration:none" target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Suporte_TI/blob/main/Files/Linux/Linux_sys_info.py'><code>Linux_sys_info.py</code></a>
+</li>
+<li><a style="text-decoration:none" target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Suporte_TI/blob/main/Files/Linux/Linux_sys_info.sh'><code>Linux_sys_info.sh</code></a></li>
+</p>
+
+
 &#x2022; <a style="text-decoration:none" target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Suporte_TI/blob/main/Files/Linux/Linux_sys_info.py'><code>Linux_sys_info.py</code></a>
 
 &#x2022; <a style="text-decoration:none" target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Suporte_TI/blob/main/Files/Linux/Linux_sys_info.sh'><code>Linux_sys_info.sh</code></a>
