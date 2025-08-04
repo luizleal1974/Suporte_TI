@@ -1,7 +1,7 @@
 ## 1. Linux System Information
 
 <p align="center">
-<img src="/Files/Ubuntu_Zorin_OS.png" width="300" height="200"/>
+<img src="/Files/Ubuntu_Zorin_OS.png" width="50" height="50"/>
 </p>
 
 ```
