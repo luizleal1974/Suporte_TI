@@ -1,4 +1,4 @@
-## 1. Linux System Information
+## 1. Linux System Information <img src="/Files/Ubuntu_Zorin_OS.png" width="50" height="50"/>
 
 <p align="center">
 <img src="/Files/Ubuntu_Zorin_OS.png" width="50" height="50"/>
