@@ -72,6 +72,31 @@ def plot_cpu_temperature(ax, canvas):
 #####                             #####
 #####                             #####
 #####                             #####
+#####        CPU Usage (%)        #####
+#####                             #####
+#####                             #####
+#####                             #####
+#######################################
+#######################################
+#######################################
+#######################################
+#######################################
+
+def plot_cpu_usage(ax, canvas):
+    ax.clear()
+    cpu_percent = psutil.cpu_percent(interval=None)
+    ax.pie([cpu_percent, 100 - cpu_percent], labels=['Used', 'Free'], autopct='%1.2f%%', startangle=90, colors=['#ff6666', '#66b3ff'], textprops={'fontsize': 12})
+    ax.set_title("CPU Usage", fontweight='bold')
+    canvas.draw()
+
+#######################################
+#######################################
+#######################################
+#######################################
+#######################################
+#####                             #####
+#####                             #####
+#####                             #####
 #####             RAM             #####
 #####                             #####
 #####                             #####
@@ -89,8 +114,7 @@ def plot_ram_usage(ax, canvas):
     available = mem.available / (1024 ** 3)
     used = (mem.total - mem.available) / (1024 ** 3)
     ax.clear()
-    ax.pie([used, available], labels=['Used', 'Free'],
-           autopct='%1.2f%%', textprops={'fontsize': 12}, colors=['#ff6666', '#66b3ff'])
+    ax.pie([used, available], labels=['Used', 'Free'], autopct='%1.2f%%', textprops={'fontsize': 12}, colors=['#ff6666', '#66b3ff'])
     ax.set_title("RAM", fontweight='bold')
     ax.axis('equal')
     canvas.draw()
@@ -162,6 +186,7 @@ Storage_info = f"""{storage_Used}
 {storage_Reserved}
 {storage_Total}
 """
+
 #######################################
 #######################################
 #######################################
@@ -392,13 +417,14 @@ for j in range(3): root.grid_columnconfigure(j, weight=1)
 
 # Lista com (linha, coluna, colspan)
 grid_positions = [
-    (0, 0, 1),  # Texto 1
-    (0, 1, 1),  # Gráfico 1
-    (0, 2, 1),  # Texto 2
-    (1, 0, 1),  # Texto 3
-    (1, 1, 1),  # Gráfico 2
-    (1, 2, 1),  # Texto 4
-    (2, 0, 3),  # Gráfico 3 (ocupa 3 colunas)
+    (0, 0, 1),  # Software
+    (0, 1, 1),  # Storage plot
+    (0, 2, 1),  # Storage info
+    (1, 0, 1),  # Hardware
+    (1, 1, 1),  # RAM plot
+    (1, 2, 1),  # RAM info
+    (2, 0, 2),  # CPU Temperature (spans 2 columns)
+    (2, 2, 1),  # CPU Usage
 ]
 
 # Criar frames
@@ -424,7 +450,7 @@ update_ram_label() # Start the RAM info update loop
 add_plot_to_frame(frames[1], plot_pie_Disk)
 add_plot_to_frame(frames[4], plot_ram_usage, update_interval=1000)
 add_plot_to_frame(frames[6], plot_cpu_temperature, update_interval=1000)
+add_plot_to_frame(frames[7], plot_cpu_usage, update_interval=1000)
 
 # Iniciar interface
 root.mainloop()
-
