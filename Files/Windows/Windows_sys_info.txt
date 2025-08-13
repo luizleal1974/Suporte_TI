@@ -1,0 +1,11 @@
+## Windows System Information Requirements
+
+## Install
+pip install pythonnet
+pip install matplotlib
+pip install psutil
+
+## Get 'LibreHardwareMonitorLib.dll' file from 'LibreHardwareMonitor-net472.zip'
+## Download 'LibreHardwareMonitor-net472.zip' from GitHub
+https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/releases
+
