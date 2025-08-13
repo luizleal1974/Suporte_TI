@@ -28,7 +28,9 @@ python3 -c "$(curl -fsSL https://raw.githubusercontent.com/luizleal1974/Suporte_
 
 ```
 # Run on Python prompt
-from Windows_sys_info import *
+from requests import get
+path = 'https://raw.githubusercontent.com/luizleal1974/Suporte_TI/main/Files/Windows/Windows_sys_info.py'
+exec(get(path).text)
 ```
 
 <p align="center">
