@@ -20,3 +20,6 @@ python3 -c "$(curl -fsSL https://raw.githubusercontent.com/luizleal1974/Suporte_
 
 </br>
 
+## 2. Windows System Information <img src="/Files/windows.png" width="50" height="50"/>
+
+</br>
