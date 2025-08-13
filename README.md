@@ -24,7 +24,7 @@ python3 -c "$(curl -fsSL https://raw.githubusercontent.com/luizleal1974/Suporte_
 
 &#8226; <a style="text-decoration:none" target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Suporte_TI/blob/main/Files/Windows/Windows_sys_info.txt'><code>Requirements</code></a>
 
-&#8226; <a style="text-decoration:none" target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Suporte_TI/blob/main/Files/Windows/Windows_sys_info.py'><code>Requirements</code></a>
+&#8226; <a style="text-decoration:none" target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Suporte_TI/blob/main/Files/Windows/Windows_sys_info.py'><code>Source code</code></a>
 
 ```
 # Run on Python prompt
