@@ -9,6 +9,8 @@ pip install psutil
 ## Download 'LibreHardwareMonitor-net472.zip' from GitHub
 https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/releases
 
-## Set working directory: Change the path below if necessary.
-## Path to LibreHardwareMonitorLib.dll
+## Note: 'LibreHardwareMonitorLib.dll' file is also available for download on this repository.
+
+## Set working directory: Change the path below if necessary on 'Windows_sys_info.py'
+## Path to 'LibreHardwareMonitorLib.dll'
 dll_path = r"C:\aaa - Luiz Henrique Leal\Backup pendrive\Statistics\Suporte\Sys_Info\LibreHardwareMonitorLib.dll"
